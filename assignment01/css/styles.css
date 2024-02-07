@@ -1,0 +1,61 @@
+/* Apply styles to the body */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0; /* Change background color */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+/* Apply styles to headings */
+h1, h2 {
+    color: #333; /* Change heading color */
+    margin-top: 20px; /* Add spacing above headings */
+}
+
+/* Apply styles to buttons */
+button {
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #007bff; /* Change button background color */
+    color: #fff; /* Change button text color */
+    border: none; /* Remove button border */
+    border-radius: 5px; /* Add border radius */
+    transition: background-color 0.3s; /* Add transition effect */
+}
+
+button:hover {
+    background-color: #0056b3; /* Change button background color on hover */
+}
+
+/* Apply styles to paragraphs */
+p {
+    color: #555; /* Change paragraph color */
+    font-size: 14px; /* Increase paragraph font size */
+}
+
+/* Apply styles to story display */
+#story {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin: 20px auto; /* Center story display */
+    max-width: 600px; /* Limit width of story display */
+    background-color: #fff; /* Add background color */
+    padding: 10px; /* Add padding */
+    border-radius: 5px; /* Add border radius */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow */
+}
+
+/* Apply styles to buttons in section */
+section button {
+    background-color: #28a745; /* Change button background color */
+}
+
+section button:hover {
+    background-color: #882121; /* Change button background color on hover */
+}
+
+section button:active {
+    background-color: #882121; /* Change button background color when clicked */
+}
